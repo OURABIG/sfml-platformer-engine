@@ -34,7 +34,7 @@ void Player::Update(float deltaTime)
         velocity.y = -sqrtf(2.0f * 981.0f * jumpHeight);
     }
 
-
+    //change physics force here
     velocity.y += 981.0f * deltaTime;
     
     if(velocity.x == 0.0f)
