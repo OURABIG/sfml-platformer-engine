@@ -67,4 +67,7 @@ void Player::OnCollision(sf::Vector2f direction)
     }
 }
 ```
+
+You an also check collisions in the collision class and modify the physics to get custom physics in the physics class
+
 ![game 30_01_2023 14_30_19](https://user-images.githubusercontent.com/94923157/216165137-9db0a503-6206-4b4b-9cda-b8b445e1192e.png)
